@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Tarea1 : Form
     {
-        public Form1()
+        public Tarea1()
         {
             InitializeComponent();
         }
@@ -64,14 +64,13 @@ namespace WindowsFormsApp1
         private string PoN(int num1)
         {
             string R;
-            int PoN = 0;
-
-            if (PoN >= 0) {
+            if (num1 >= 0)
+            {
                 R = "Positivo";
             }
-            else if (PoN < 0) { }
+            else
             {
-                R = "Negativo";
+                R= "Negativo";
             }
             return R;
         }
